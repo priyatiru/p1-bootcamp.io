@@ -1,0 +1,145 @@
+body
+{
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    align-content: center;
+    justify-items: center;
+    background-color: lightpink;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 120px 125px 125px 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    color: rgb(19, 15, 17);
+}
+
+.navbar a:hover{
+    color:whitesmoke;
+}
+
+.profile{
+    display: grid;
+    justify-items: center;
+}
+
+.photo{
+    display: grid;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: white 10px solid;
+}
+
+.profile details{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.profile p{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.skils{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html,.css,.js,.python{
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+.projects a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.projects li{
+    list-style-type: none;
+    margin-bottom: 7px;
+    text-align: center;
+    /* text-align: center; */
+}
+
+.p1, .p2,.p3,.p4{
+    padding: 5px;
+}
+
+.projects a:hover{
+    color: white;
+}
+
+.blogs a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.blogs li{
+    list-style-type: none;
+    margin-bottom: 7px;
+    /* text-align: center; */
+}
+
+.blogs a:hover{
+    color: whitesmoke;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a{
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: whitesmoke;
+}
